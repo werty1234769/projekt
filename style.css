@@ -55,6 +55,11 @@ article:hover {
     font-size: 20px;
 }
 
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
 .catalog {
     display: flex;
     justify-content: space-around;
