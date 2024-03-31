@@ -1,22 +1,25 @@
-
-  .wrapper {
+ .wrapper {
     width: 100%;
     height: 100%;
   }
 
+
   main{
       margin: auto;
   }
+
 
 body {
     font-family: sans-serif;
     text-align: center;
 }
 
+
 h1 {
     font-size: 50px;
     text-align: center;
 }
+
 
 nav {
     border-top: 3px solid royalblue;
@@ -24,6 +27,7 @@ nav {
     justify-content: space-between;
     border-bottom: 3px solid royalblue;
 }
+
 
 nav a {
     text-decoration: none;
@@ -33,9 +37,11 @@ nav a {
     margin-bottom: 15px;
 }
 
+
 .head_img {
     width: 700px;
 }
+
 
 h2 {
     color: green;
@@ -44,9 +50,11 @@ h2 {
     font-family: cursive;
 }
 
+
 article:hover {
     box-shadow: 0 5px 5px 5px navy;
 }
+
 
 .catalog a {
     text-decoration: none;
@@ -55,14 +63,16 @@ article:hover {
     font-size: 20px;
 }
 
+
 .catalog {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 700px;
-    margin: 0 30px;
+    width: 80%;
+    margin: auto;
     background-color: lightblue;
 }
+
 
 .product {
     width: 150px;
@@ -74,7 +84,9 @@ article:hover {
     background-color: rgb(196, 255, 230);
 }
 
+
 .product::before {
+
 
     width: 30px;
     height: 30px;
@@ -83,35 +95,41 @@ article:hover {
     margin-bottom: 10px;
 }
 
+
 .principles {
     display: flex;
     border-top: 5px solid navy;
     border-bottom: 5px solid navy;
-    justify-content: space-between; 
-    width: 700px;
-    margin: 0 30px;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
     padding: 30px;
     text-align: center;
 }
+
 
 .principle {
     width: 120px;
 }
 
+
 .question-answer {
     margin: 30px;
 }
+
 
 .question {
     color: brown;
 }
 
+
 .qua-item::before {
-    content: url("/uploads/2021/03/question_0_1614951460.svg");
+    content: url("https://lms.logikaschool.com/uploads/2021/03/question_0_1614951460.svg");
     display: inline-block;
     width: 10px;
     height: 20px;
 }
+
 
 .slogan {
     display: flex;
@@ -120,9 +138,9 @@ article:hover {
     margin-left: 150px;
 }
 
+
 .slogan_img {
     padding: 10px;
     border: 5px solid orange;
     border-radius: 50%;
 }
-
